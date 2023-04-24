@@ -1,0 +1,254 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: var(--color-white);
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--------base styly--------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*h1*/
+.title {
+  font-size: 56px;
+  font-weight: 700;
+
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/*h2*/
+.subject {
+  font-size: 36px;
+  font-weight: 700;
+
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--color-navy-blue);
+}
+
+/*h3*/
+.heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--color-grey);
+}
+/*p*/
+.small {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+.text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!-----------------header styles-----------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.header-nav {
+}
+.header-loga {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--color-iris);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.loga {
+  color: var(--color-grey);
+}
+.header-nav-list {
+}
+.header-nav-list .heqder-link {
+  color: var(--color-navy-blue);
+}
+.header-nav-list .heqder-link:hover,
+.header-nav-list .heqder-link:focus,
+.header-nav-list .heqder-link:active {
+  color: var(--color-ocean);
+}
+.header-nav-item {
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address-contact {
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--color-ocean);
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!----------------------hero-imege------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!1*/
+
+.section-hero-image {
+  background: var(--color-navy-blue);
+}
+.hero-imege-title {
+  color: var(--color-white);
+}
+.imege-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--color-white);
+  background-color: var(--color-iris);
+}
+.imege-button:hover,
+.imege-button:focus {
+  background-color: var(--color-ocean);
+}
+.imege-button:active {
+  background-color: var(--color-ocean);
+}
+
+/*!!!!!!!!!!!!!!!!!!!!--------------------section advantage-------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.section-advantage {
+}
+
+.advantage-list {
+}
+
+.advantage-item {
+}
+.advantage-title {
+}
+
+.advantage-text {
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------section product----------------!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.section-product {
+}
+.product-title {
+}
+.product-list {
+}
+.product-item {
+}
+.product-item-img {
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-------------------section team--------------------!!!!!!!!!!!!!!!!!!!!!!!*/
+.section-team {
+  background-color: var(--color-cloud);
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+  background-color: var(--color-white);
+}
+.team-item-img {
+}
+.team-item-title {
+  text-align: center;
+}
+.team-item-text {
+  text-align: center;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!----------------------------footer------------------!!!!!!!!!!!!!!!!!!!!!!!*/
+.footer {
+  background: var(--color-navy-blue);
+}
+
+.footer-loga {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--color-iris);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.loga-footer {
+  color: var(--color-cloud);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!----------------portfolio-------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!-----button-filters-----!!!!!!*/
+.button-filters {
+}
+.button-item {
+}
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--color-iris);
+  background: var(--color-cloud);
+}
+.button:hover,
+.button:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+.button:active {
+  color: var(--color-white);
+  background: var(--color-ocean);
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!---------------project-card-----------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.project-list {
+}
+
+.project-item {
+}
+.project-link:link {
+  text-decoration: none;
+}
+.project-title {
+}
+.progekt-text {
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!------------------CSS root---------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
